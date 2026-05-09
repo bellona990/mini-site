@@ -1,0 +1,117 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg, #007f8a, #004f56);
+  min-height:100vh;
+  color:#f4c542;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:80px 20px;
+}
+
+.hero h1{
+  font-size:42px;
+  margin-bottom:10px;
+  color:#f4c542;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+
+.hero p{
+  font-size:18px;
+  opacity:0.9;
+  color:#f4c542;
+}
+
+/* BUTTON */
+button{
+  margin-top:20px;
+  padding:12px 28px;
+  border:none;
+  border-radius:30px;
+  background:#f4c542;
+  color:#004f56;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.07);
+}
+
+/* CARDS */
+.cards{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+  padding:40px 20px;
+}
+
+.card{
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(12px);
+  padding:25px;
+  border-radius:15px;
+  width:270px;
+  text-align:center;
+  color:#f4c542;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  background: rgba(255,255,255,0.15);
+}
+
+/* BOŞLUK */
+.gap{
+  height:12px;
+}
+
+/* PROJE LİNK */
+.link{
+  color:#f4c542;
+  font-weight:bold;
+}
+
+/* INFO */
+.info{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  padding:20px;
+}
+
+.info-box{
+  background: rgba(0,0,0,0.25);
+  padding:20px;
+  border-radius:12px;
+  width:220px;
+  text-align:center;
+  color:#f4c542;
+}
+
+/* BOŞLUK */
+.info-gap{
+  height:10px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  opacity:0.8;
+}
+a{
+  text-decoration: none;
+}
